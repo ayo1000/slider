@@ -1,0 +1,34 @@
+body {
+    font-family: Itim;
+    color: red;
+    text-align: center;
+}
+
+.auto {
+    height: 100%;
+    width: 100%;
+}
+
+section#carousel > figure > img {
+    display: none;
+    margin: 0px auto;
+}
+
+section#carousel > figure.visible > img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+section#carousel > figure > figcaption {
+    display: none;
+}
+
+section#carousel > figure.visible > figcaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
